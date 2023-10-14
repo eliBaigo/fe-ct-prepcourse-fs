@@ -5,6 +5,13 @@ function obtenerMayor(x, y) {
    // Retornar el número más grande.
    // Si son iguales, retornar cualquiera de los dos.
    // Tu código:
+   if (x>y){
+      console.log('es mayor el nro '+ x);
+   }else if(x<y){
+      console.log('es mayor el nro'+ y);
+   }else {
+      console.log('los numeros'+ x + y+'son iguales' );
+   }
 }
 
 function mayoriaDeEdad(edad) {
